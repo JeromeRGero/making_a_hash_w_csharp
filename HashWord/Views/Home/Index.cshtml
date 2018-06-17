@@ -1,0 +1,8 @@
+﻿@model System.Collections.Generic.Dictionary<string, string>
+@{ViewData["Title"] = "Home Page";}
+
+<h3>@Model["CurNum"]</h3>
+<h1 style="padding: 10px 5px">@Model["RandomHash"]</h1>
+
+<a asp-area="" asp-controller="Home" asp-action="Contact"><button>Generate</button></a>
+
